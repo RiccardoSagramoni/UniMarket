@@ -1,0 +1,23 @@
+body{
+	height:	100vh;
+	box-sizing: border-box;
+	background-image: url("./../img/successShop.png");
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+	text-align: center;
+}
+h1{
+	margin: 0px;
+	padding: 20px 0px;
+	color: blue;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: underline;
+}
+p{
+	margin:0;
+	background-color: white;
+}
+a{
+	color: blue;
+}

@@ -1,0 +1,48 @@
+body{
+	overflow-y:hidden;
+}
+#user-data-preview{
+	width: 60%;
+	margin: 10px auto;
+	padding-top: 10px;
+}
+.input_sign{
+	margin: 8px 15px;
+}
+.user_data{
+	border: solid thin black;
+	border-radius: 5px;
+	width: 400px;
+	padding: 4px 20px;
+	text-align: center;
+}
+.flexbox_button_profilo{
+	width: 100%;
+	display: flex !important;
+	justify-content: space-around;
+	align-items:center;
+	margin: 20px 0px;
+	flex-wrap:wrap;
+}
+.change_button{
+	height: 51px;
+	width: 200px;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: white;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+	
+	margin:10px 0px;
+	white-space:normal;
+	cursor: pointer;
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	text-align: center;
+}
+

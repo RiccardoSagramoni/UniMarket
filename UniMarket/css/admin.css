@@ -1,0 +1,284 @@
+.admin_main_page{
+	position: relative;
+	left:50%;
+	transform: translate(-50%, 0%);
+	
+	width: 50%;
+	margin-top: 50px;
+	
+}
+.admin_main_page h1{
+	color: red;
+	text-align:center;
+}
+.admin_main_page p,
+.admin_main_page li{
+	font-size: 1.2em;
+}
+.admin_main_page li{
+	padding: 5px 0px;
+}
+.admin_main_page li a{
+	color: black;
+}
+.admin_main_page li a:hover{
+	color: blue;
+	font-weight: bold;
+}
+
+/* PAGINA DI MODIFICA DEI PRODOTTI */
+#explore-wrapper{
+	margin: 25px 0px;
+}
+.page_navigation{
+	padding:0px;
+}
+table.editItem_dashboard{
+	width: calc(100% - 40px);
+	margin: 20px;
+	text-align: center;
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+table.editItem_dashboard th{
+	color: red;
+	font-size: 1.2em;
+}
+table.editItem_dashboard,
+table.editItem_dashboard tr,
+table.editItem_dashboard th,
+table.editItem_dashboard td{
+	border: solid thin black;
+	word-wrap: break-word;
+}
+table.editItem_dashboard td{
+	padding: 2px 5px;
+}
+table.editItem_dashboard tr td:nth-child(1),
+table.editItem_dashboard tr th:nth-child(1){
+	width:50px;
+}
+table.editItem_dashboard tr td:nth-child(2),
+table.editItem_dashboard tr th:nth-child(2){
+	width:220px;
+}
+table.editItem_dashboard tr th:nth-child(2){
+	background-color: red;
+	color:white;
+}
+table.editItem_dashboard tr td:nth-child(2){
+	color:white;
+	font-weight:bold;
+	background-color: darkorange;
+}
+table.editItem_dashboard tr td:nth-child(3),
+table.editItem_dashboard tr th:nth-child(3){
+	width:100px;
+}
+table.editItem_dashboard tr td:nth-child(4),
+table.editItem_dashboard tr th:nth-child(4){
+	width:auto;
+}
+table.editItem_dashboard tr td:nth-child(5),
+table.editItem_dashboard tr th:nth-child(5){
+	width:120px;
+}
+table.editItem_dashboard tr td:nth-child(6),
+table.editItem_dashboard tr th:nth-child(6){
+	width:60px;
+}
+table.editItem_dashboard tr td:nth-child(7),
+table.editItem_dashboard tr th:nth-child(7){
+	width:80px;
+}
+table.editItem_dashboard tr td:nth-child(8),
+table.editItem_dashboard tr th:nth-child(8){
+	width:140px;
+}
+table.editItem_dashboard tr td:nth-child(9),
+table.editItem_dashboard tr th:nth-child(9){
+	width:40px;
+}
+.admin_table_item_icon_edit{
+	margin:auto;
+	cursor:pointer;
+}
+
+/* POPUP BOXES FOR EDIT ITEM */
+.edit_popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.edit_popup_content {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 16px 24px;
+    width: 700px;
+    border-radius: 0.5rem;
+}
+.close_button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+.close_button:hover {
+    background-color: darkgray;
+}
+.edit_popup_content h2{
+	margin: 5px;
+	text-align: center;
+	color: red;
+}
+.edit_popup_content form div.edit_item_data,
+.form_item div.edit_item_data{
+	display: flex;
+	justify-content: space-between;
+	align-items:baseline;
+	margin: 15px 10px;
+}
+.edit_popup_content form div.edit_item_data *:nth-child(2),
+.form_item div.edit_item_data *:nth-child(2){
+	width:500px;
+	font-size:1em;
+	font-family:inherit;
+	padding: 2px 5px;
+}
+.edit_popup_content form div.edit_item_data textarea{
+	resize:none;
+	height: 120px;
+}
+.edit_popup_content form div.edit_item_data input[type="number"],
+.form_item div.edit_item_data input[type="number"]{
+	width:100px;
+	text-align: center;
+}
+.show_modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.input_button{
+	width: 100%;
+	text-align:center;
+	margin-top: 30px;
+}
+.input_button input[type="submit"]{
+	background-color: limegreen;
+	text-transform:uppercase;
+	color: white;
+	font-weight:bold;
+	border: solid 0px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	width: 100px;
+	cursor:pointer;
+	font-size: 0.9em;
+}
+
+/* PAGINA INSERIMENTO NUOVA FOTO */
+.form_admin{
+	position: relative;
+	left:50%;
+	transform: translate(-50%, 0%);
+	
+	width: 50%;
+	margin-top: 100px;
+	
+	text-align: center;
+}
+.form_admin > *{
+	margin: 15px 0px;
+}
+.form_admin input[type="number"]{
+	width: 200px;
+	margin-left: 30px;
+	text-align: center;
+	font-size:1.2em;
+}
+.form_admin input[type="file"]{
+	margin-top:15px;
+}
+
+/* PAGINA DI AGGIUNTA DI UN NUOVO AMMINISTRATORE */
+#form-nuovo-admin > div{
+	display: flex;
+	justify-content: space-between;
+	align-items:baseline;
+}
+#form-nuovo-admin > div > input{
+	height: 1.2em;
+	padding: 5px 5px;
+	width: 250px;
+	
+	border-radius: 5px;
+	border:solid medium black;
+	
+	font-size: 1em;
+	text-align:center;
+}
+#form-nuovo-admin > input{	
+	margin:auto;
+	margin-top: 30px;
+}
+.input_error{
+	position:absolute;
+	left: 750px;
+	height: 24.5px;
+	width:auto;
+	padding: 0px 5px;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	white-space: nowrap;
+	visibility: hidden;
+	
+	background-color:rgb(255,0,0);
+	border: solid red medium;
+	border-radius: 5px;
+	color:white;
+}
+
+/* INSERISCI UN NUOVO PRODOTTO */
+.form_item{
+	width:50%;
+	height:50%;
+	margin:auto;
+	transform: translate(0,50px);
+}
+.form_item div.edit_item_data textarea{
+	resize:none;
+	height: 150px;
+}
+.form_item .input_button{
+	margin-bottom: 100px;
+}
+.form_item h2{
+	color:red;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+

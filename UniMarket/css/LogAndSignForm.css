@@ -1,0 +1,148 @@
+.containerWhiteCentered{
+	border: solid thin grey;
+	border-radius: 20px;
+	
+	height:auto;
+	
+	z-index: 10;
+	background-color:white;
+}
+
+/* LOGIN PAGE */
+#login-container{
+	width:350px;
+	padding: 30px 20px;
+}
+#login-container *{
+	display: block;
+}
+.input_login{
+	padding: 0px 0px 25px;
+	text-align: center;
+	font-size: 1.3em;
+}
+.input_login input{
+	margin: auto;
+	height: 39px;
+	width: 290px;
+	box-sizing: border-box;
+	font-size: 0.9em;
+	font-family:inherit;
+	letter-spacing: 0.5px;
+	
+	border: solid thin;
+	border-radius: 5px;
+	padding: 5px 10px;
+	outline-width: 0;
+}
+.input_login input:focus{
+	background-color: rgba(135,206,250, 0.3);
+}
+.input_login label{
+	font-weight: bold;
+}
+.submit_button{
+	height: 39px;
+	width: 244px;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-size: 1em;
+	color: white;
+	background-color: DodgerBlue;
+	border: none;
+	border-radius: 5px;
+}
+.flexbox{
+	width: 100%;
+	display: flex !important;
+	justify-content: center;
+	align-items:center;
+}
+#login-container .flexbox{
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+.sign_link{
+	text-decoration: none;
+	font-size: 0.9em;
+	color:blue;
+	text-align: center;
+}
+
+/* SIGNUP PAGE */
+#signUp-container{
+	width: 800px;
+	align-self: baseline;
+}
+#form-registrati{
+	box-sizing: border-box;
+	width:100%;
+	padding: 4% 10%;
+}
+.title_form{
+	margin: 0;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 2em
+}
+hr{
+	width: 100%;
+	margin: 1.3em 0em;
+}
+.input_sign{
+	height:40px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	font-size: 1.1em;
+	position:relative;
+}
+.input_sign > input, .radio_sign > span{
+	margin: 5px 10px;
+	font-size: 0.9em;
+	font-family:inherit;
+}
+.input_sign > input{
+	letter-spacing: 0.5px;
+	width: 300px;
+	
+	border: solid thin;
+	border-radius: 5px;
+	padding: 5px 10px;
+	outline-width: 0;
+}
+.input_date{
+	width: auto !important;
+}
+#form-registrati .flexbox{
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+
+.input_error{
+	position:absolute;
+	left: 640px;
+	height: 24.5px;
+	width:auto;
+	padding: 0px 5px;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	white-space: nowrap;
+	visibility: hidden;
+	
+	background-color:rgb(255,0,0);
+	border: solid red medium;
+	border-radius: 5px;
+	color:white;
+}
+.flex_link_signup{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+}
