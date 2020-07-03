@@ -1,5 +1,5 @@
 # UniMarket
-Progetto universitario per il corso di **Progettazione Web** (Ingegneria Informatica, UniPi).
+Progetto universitario per il corso di **Progettazione Web** (Ingegneria Informatica - UniPi, A.A. 2018-19).
 
 Il progetto è un sito e-commerce che vende generi alimentari (supermercato online), permettendo all'utente di selezionare i prodotti da inserire nell'ordine, confermare l'ordine, recensire i prodotti del supermercato e controllare lo storico degli ordini.
 
